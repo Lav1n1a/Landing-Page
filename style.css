@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.cabecalho-imagem {
+    height: 72px;
+}
+.cabecalho-imagem-titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 35px;
+    font-family: 'Righteous', cursive;
+    color:#a8c3f7;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+.cabecalho-meu-item {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+}
+.conteudo {
+    padding-top: 48px;
+    margin-bottom: 48px;
+    border-top: 0.4px solid white;
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+}
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    color: white;
+}
+.conteudo-principal-escrito-botao {
+    background-color: white;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.452);
+    font-family: 'Righteous', cursive;
+    font-weight: 400px;
+    font-size: 22px;
+}
+.conteudo-principal-escrito-botao:hover {
+    background-color: #090270;
+    color: white;
+}
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 40px;
+}
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid white;
+    padding-top: 45px;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-weight: 400px;
+    font-size: 33px;
+}
+.conteudo-secundario-p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.rodape {
+    padding: 30px;
+    border-top: 0.4px solid white;
+}
+.rodape-principal {
+    display: flex;
+    justify-content: center;
+}
+.rodape-imagem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 35px;
+    font-family: 'Righteous', cursive;
+    color:#a8c3f7
+}
